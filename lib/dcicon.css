@@ -1,0 +1,15 @@
+body{ width: 100wh; height: 100vh; }
+
+#wrapper { position: absolute; left: 50%; top: 20%; }
+
+#target { width: 150px; height: 150px; display: inline-block; background-image: url(../1F600.svg); background-size: 100% 100%; background-repeat: no-repeat; transform: scale(1);}
+
+/*  라이브러리  */
+/* 회전: alias */
+/* 이동: move */
+/* 리사이즈: nesw-resize */
+.dc-cusor {  }
+.dc-cusor.center { cursor: move; }
+.dc-cusor.point { cursor: nesw-resize; }
+.ctrl-border{ position: absolute; left: 0; top: 0; border: 3px dotted blue; }
+.ctrl-point{ position: absolute;  border-radius: 10px; background-color: blue;}
